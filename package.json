@@ -1,0 +1,19 @@
+{
+	"name": "front-end-guild-typescript",
+	"version": "0.0.1",
+	"description": "Project used for typescript guild introductory meeting.",
+	"main": "index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "tsnd --respawn --transpile-only src/index.ts"
+	},
+	"author": "Kristoffer Roen-Lie",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^17.0.8",
+		"nodemon": "^2.0.15",
+		"ts-node-dev": "^1.1.8",
+		"tslib": "^2.3.1",
+		"typescript": "^4.5.4"
+	}
+}
